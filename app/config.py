@@ -21,6 +21,10 @@ class Settings(BaseSettings):
     cache_ttl_seconds: int = 300
     max_retries: int = 3
 
+    # RAG / Vector Store
+    database_url: str
+    collection_name: str = "production_docs"
+
     model_config = {
         "env_file": ".env",
         "extra": "ignore"
