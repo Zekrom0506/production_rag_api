@@ -9,3 +9,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Personal / non-public files
+INTERVIEW_FEATURE_LIST.md
+resume.tex
+.pytest_cache/
